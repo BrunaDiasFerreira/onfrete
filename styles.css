@@ -1,0 +1,22 @@
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+.hero {
+    background-color: #28a745;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+.benefits, .resources, .cta, .footer {
+    padding: 50px 0;
+}
+.cta {
+    background-color: #343a40;
+    color: white;
+}
+.footer {
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+}
