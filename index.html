@@ -6,72 +6,6 @@
     <title>ONFRETE</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <style>
-        /* Definindo as cores da marca */
-        :root {
-            --green-color: #93D149;
-            --blue-color: #155F82;
-            --white-color: #FFFFFF;
-        }
-
-        body {
-            font-family: 'Slenco', sans-serif; /* Adicionar a fonte personalizada */
-            background-color: var(--white-color);
-            color: var(--blue-color);
-        }
-
-        h1, h2 {
-            color: var(--blue-color);
-        }
-
-        .hero {
-            background-color: var(--green-color);
-            color: var(--white-color);
-            padding: 50px 0;
-        }
-
-        .hero h2 {
-            font-size: 2.5rem;
-        }
-
-        .hero p {
-            font-size: 1.2rem;
-        }
-
-        /* Estilizando os botões com as cores da marca */
-        .btn-primary {
-            background-color: var(--blue-color);
-            border: none;
-        }
-
-        .btn-success {
-            background-color: var(--green-color);
-            border: none;
-        }
-
-        /* Cartões de Benefícios */
-        .card-title {
-            color: var(--blue-color);
-        }
-
-        .resources {
-            padding: 50px 0;
-            color: var(--blue-color);
-        }
-
-        .cta {
-            background-color: var(--blue-color);
-            color: var(--white-color);
-            padding: 50px 0;
-        }
-
-        footer {
-            background-color: var(--green-color);
-            color: var(--white-color);
-            padding: 20px 0;
-            text-align: center;
-        }
-    </style>
 </head>
 <body>
     <!-- Cabeçalho -->
@@ -80,58 +14,31 @@
     </header>
 
     <!-- Seção de Hero -->
-    <section class="hero">
-        <div class="container text-center">
-            <h2>A Plataforma que Transforma Cotações em Economia Real</h2>
-            <p>Conheça o ON FRETE</p>
-            <a href="https://docs.google.com/forms/d/1lJbiqI4WDdjRgYJ0pCE0NyIo6_23wiGfMUq4JNEZnDM/viewform?edit_requested=true" class="btn btn-success btn-lg mt-3">Quero ser Cliente</a>
+    <section class="hero text-center">
+        <div class="container">
+            <!-- Adicionando o logo aqui -->
+            <img src="./assets/logo-onfrete.jpg" alt="Logo Onfrete" class="img-fluid" style="max-width: 300px; margin-bottom: 20px;">
+            <h2 class="display-4">A Plataforma que Transforma Cotações em Economia Real</h2>
+            <p class="lead">Conheça o ON FRETE</p>
+            <a href="https://docs.google.com/forms/d/1lJbiqI4WDdjRgYJ0pCE0NyIo6_23wiGfMUq4JNEZnDM/viewform?edit_requested=true" class="btn btn-light btn-lg mt-3">Quero ser Cliente</a>
             <a href="https://portal.onfrete.com.br/auth/login" class="btn btn-primary btn-lg mt-3">Já sou Cliente</a>
         </div>
     </section>
 
     <!-- Seção de Benefícios -->
-    <section class="benefits py-5">
+    <section class="benefits">
         <div class="container">
             <div class="row">
-                <!-- Primeiro Card -->
-                <div class="col-md-4 mb-4">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="./assets/quanto-ganha-um-lojista.jpg" alt="Melhor Custo-Benefício">
-                        <div class="card-body">
-                            <h5 class="card-title">Melhor Custo-Benefício</h5>
-                            <p class="card-text">Economize Tempo e Dinheiro com cotações instantâneas e precisas.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Segundo Card -->
-                <div class="col-md-4 mb-4">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="./assets/quanto-ganha-um-lojista.jpg" alt="Cotações Online Instantâneas">
-                        <div class="card-body">
-                            <h5 class="card-title">Cotações Online Instantâneas</h5>
-                            <p class="card-text">Obtenha cotações em tempo real sem necessidade de ligações ou e-mails.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Terceiro Card -->
-                <div class="col-md-4 mb-4">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="./assets/quanto-ganha-um-lojista.jpg" alt="Plataforma Fácil de Usar">
-                        <div class="card-body">
-                            <h5 class="card-title">Plataforma Fácil de Usar</h5>
-                            <p class="card-text">Interface intuitiva projetada para facilitar sua experiência.</p>
-                        </div>
-                    </div>
-                </div>
+                <!-- Conteúdo dos cards... -->
             </div>
         </div>
     </section>
 
     <!-- Seção de Detalhamento de Recursos -->
     <section class="resources bg-light">
-        <div class="container text-center">
+        <div class="container">
             <h2>Veja ON FRETE em Ação</h2>
-            <p>Cotações online com leilão por melhor preço ou prazo. Upload de tabelas ilimitadas para cotações nacionais.</p>
+            <p>Cotações online com leilão por melhor preço ou melhor prazo. Upload de tabelas ilimitadas para cotações com abrangência nacional.</p>
         </div>
     </section>
 
