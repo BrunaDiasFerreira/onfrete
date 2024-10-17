@@ -25,55 +25,74 @@
         </div>
     </section>
 
-    <!-- Seção de Benefícios -->
+    <!-- Seção de Benefícios (Carrossel) -->
     <section class="benefits">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4 mb-4">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="./assets/quanto-ganha-um-lojista.jpg" alt="Melhor Custo-Benefício">
-                        <div class="card-body">
-                            <h5 class="card-title">Melhor Custo-Benefício</h5>
-                            <p class="card-text">Economize Tempo e Dinheiro com cotações instantâneas e precisas.</p>
+            <h2 class="text-center mb-4">Benefícios</h2>
+            <div id="benefitsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="15000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="./assets/quanto-ganha-um-lojista.jpg" alt="Melhor Custo-Benefício">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Melhor Custo-Benefício</h5>
+                                        <p class="card-text">Economize Tempo e Dinheiro com cotações instantâneas e precisas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="./assets/quanto-ganha-um-lojista.jpg" alt="Cotações Online Instantâneas">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cotações Online Instantâneas</h5>
+                                        <p class="card-text">Obtenha cotações em tempo real sem necessidade de ligações ou e-mails.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="./assets/quanto-ganha-um-lojista.jpg" alt="Plataforma Fácil de Usar">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Plataforma Fácil de Usar</h5>
+                                        <p class="card-text">Interface intuitiva projetada para facilitar sua experiência, acessível por celular ou computador.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="./assets/quanto-ganha-um-lojista.jpg" alt="Confiabilidade e Transparência">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Confiabilidade e Transparência</h5>
+                                        <p class="card-text">Trabalhamos apenas com transportadoras certificadas e de confiança.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="./assets/quanto-ganha-um-lojista.jpg" alt="Suporte ao Cliente Dedicado">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Suporte ao Cliente Dedicado</h5>
+                                        <p class="card-text">Atendimento personalizado para suas necessidades.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="./assets/quanto-ganha-um-lojista.jpg" alt="Cotações Online Instantâneas">
-                        <div class="card-body">
-                            <h5 class="card-title">Cotações Online Instantâneas</h5>
-                            <p class="card-text">Obtenha cotações em tempo real sem necessidade de ligações ou e-mails.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="./assets/quanto-ganha-um-lojista.jpg" alt="Plataforma Fácil de Usar">
-                        <div class="card-body">
-                            <h5 class="card-title">Plataforma Fácil de Usar</h5>
-                            <p class="card-text">Interface intuitiva projetada para facilitar sua experiência, acessível por celular ou computador.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="./assets/quanto-ganha-um-lojista.jpg" alt="Confiabilidade e Transparência">
-                        <div class="card-body">
-                            <h5 class="card-title">Confiabilidade e Transparência</h5>
-                            <p class="card-text">Trabalhamos apenas com transportadoras certificadas e de confiança.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="./assets/quanto-ganha-um-lojista.jpg" alt="Suporte ao Cliente Dedicado">
-                        <div class="card-body">
-                            <h5 class="card-title">Suporte ao Cliente Dedicado</h5>
-                            <p class="card-text">Atendimento personalizado para suas necessidades.</p>
-                        </div>
-                    </div>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#benefitsCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#benefitsCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
     </section>
@@ -82,8 +101,7 @@
     <section class="resources bg-light">
         <div class="container">
             <h2>Veja ON FRETE em Ação</h2>
-            <p>Cotações online com leilão por melhor preço ou melhor prazo. 
-                Tabelas ilimitadas para cotações com abrangência nacional.</p>
+            <p>Cotações online com leilão por melhor preço ou melhor prazo. Tabelas ilimitadas para cotações com abrangência nacional.</p>
         </div>
     </section>
 
